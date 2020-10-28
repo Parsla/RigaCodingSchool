@@ -38,11 +38,6 @@ namespace Day3
             {
                 Console.WriteLine(b);
             }
-            
-            {
-
-            }
-                
 
         }
         static void Task4()
