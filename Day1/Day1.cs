@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Day1
 {
-    class Program
+    class Day1
     {
         static void Task1()
         {

@@ -2,7 +2,7 @@
 
 namespace Day2
 {
-	class Program
+	class Day2
 	{
 		static void Task1()
         {
@@ -24,6 +24,18 @@ namespace Day2
 				Console.WriteLine("Ievadītajam skaitlim jābūt robežās no 30 līdz 50!");
 			}
 		}
+		static void Task2()
+        {
+
+        }
+		static void Task3()
+        {
+
+        }
+		static void Task4()
+        {
+
+        }
 		static void Main(string[] args)
 
 		{
