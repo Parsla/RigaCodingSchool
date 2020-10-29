@@ -34,11 +34,15 @@ namespace Day3
         {
             bool b = true;
 
+            int i = 0;
             while (b)
             {
-                Console.WriteLine(b);
+                if(++i == 20)
+                {
+                    b = false;
+                    
+                }
             }
-
         }
         static void Task4()
         {
@@ -60,9 +64,16 @@ namespace Day3
         static void Task6()
         {
             int[] array = { 7, 4, 7, 3, 6, 9, 2 };
-            array[3] = 10;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == 3) 
+                {
+                    array[i] = 10;
+                }
+            }
             string str = string.Join(" , ", array);
             Console.WriteLine(str);
+           
         }
         static void Task7()
         {
@@ -94,14 +105,13 @@ namespace Day3
             string userInput = Console.ReadLine();
             int x = Convert.ToInt32(userInput);
 
-            if(x > 20)
-            {
-                Console.WriteLine("Ievadītajam skaitlim jābūt mazākam par 20!");
-            }
-            else
-            {
-                
-            }
+            while (userInput <= 20)
+
+            /*if(x > 20)
+            
+                Console.WriteLine("Ievadītajam skaitlim jābūt mazākam par 20!");*/
+            
+           
         }
         static void Main(string[] args)
         {

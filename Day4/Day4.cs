@@ -9,7 +9,12 @@ namespace Day4
             string[] array = { "Jānis", "Pēteris", "Kārlis" };
             int x = 0;
 
-            while (x < 3)
+            do
+            {
+
+            }
+
+            while (x < 3);
                 {
                 
             }
