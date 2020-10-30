@@ -74,6 +74,9 @@ namespace Day1
                 case 5:
                     Task5();
                     break;
+                default:
+                    Console.WriteLine("Ievadi skatli robežās no 1 līdz 5!");
+                    break;
             }
             /*Task1();
             Task2();

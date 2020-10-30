@@ -148,6 +148,9 @@ namespace Day3
                 case 9:
                     Task9();
                     break;
+                default:
+                    Console.WriteLine("Ievadi skatli robežās no 1 līdz 9!");
+                    break;
             }
 
             //Task1();

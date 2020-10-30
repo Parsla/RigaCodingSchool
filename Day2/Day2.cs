@@ -37,10 +37,31 @@ namespace Day2
 
         }
 		static void Main(string[] args)
-
 		{
-			Task1();
-		}
+            Console.WriteLine("Ievadi uzdevuma nr.: ");
+            string userInput = Console.ReadLine();
+            int x = Convert.ToInt32(userInput);
+
+            switch (x)
+            {
+                case 1:
+                    Task1();
+                    break;
+                case 2:
+                    Task2();
+                    break;
+                case 3:
+                    Task3();
+                    break;
+                case 4:
+                    Task4();
+                    break;
+                default:
+                    Console.WriteLine("Ievadi skatli robežās no 1 līdz 4!");
+                    break;
+
+            }
+        }
 		
 	}
 
