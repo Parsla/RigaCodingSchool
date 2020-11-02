@@ -8,8 +8,8 @@ namespace Day6
     {
         public static string GetNameSurname()
         {
-            string text = Console.ReadLine();
-            return text;
+
+            return Console.ReadLine();
 
         }
         public static void PrintNameSurname(string nameSurname)

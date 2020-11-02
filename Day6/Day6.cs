@@ -16,18 +16,22 @@ namespace Day6
                     Task1.PrintGreeting();
                     Task1.PrintGreeting();
                     Task1.PrintGreeting();
+                    //for(int i = 0; i < 6; i++)
                     break;
                 case 2:
-                    Task2.PrintMyName(string name, string surname);
-                    /*Console.WriteLine(name + " " + surname);
-                    Console.WriteLine((name.Substring(0, 1)) + ". " + (surname.Substring(0, 1).ToUpper()) + surname.Substring(1));*/
+                    string name = "Pārsla";
+                    string surname = "Ēberliņa";
+                    Task2.PrintMyName(name, surname);
                     break;
                 case 3:
                     string nameSurname = Task3.GetNameSurname();
                     Task3.PrintNameSurname(nameSurname);
                     break;
                 case 4:
-                    Task4();
+                   
+                    Console.Write("Ievadi skaitli n: ");
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine($"Faktoriāls no {n} ir {Task4.Factorial(n)}");
                     break;
                 default:
                     Console.WriteLine("Ievadi skatli robežās no 1 līdz 4!");
