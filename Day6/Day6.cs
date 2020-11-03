@@ -16,7 +16,7 @@ namespace Day6
                     Task1.PrintGreeting();
                     Task1.PrintGreeting();
                     Task1.PrintGreeting();
-                    //for(int i = 0; i < 6; i++)
+                    //for(int i = 0; i < 3; i++)
                     break;
                 case 2:
                     string name = "Pārsla";
