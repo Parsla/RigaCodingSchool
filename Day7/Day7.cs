@@ -27,14 +27,18 @@ namespace Day7
                     string[] stringArray = { "a", "b", "c" };
                     Task3.PrintArrayValues(stringArray);
                     break;
-                /*case 4:
-                    Task4();
-                    break;
-                case 5:
-                    Task5();
+                case 4:
+                    string[] nameArray = { "Jānis", " ", "Pēteris", "Antons", " ", "Andris" };
+                    Task3.PrintArrayValues(nameArray);
+                    nameArray = Task4.GetNonEmtyArray(nameArray);
+                    Task3.PrintArrayValues(nameArray);
+                   
+                   break;
+               case 5:
+                    //Task5();
                     break;
                 case 6:
-                    Task6();*/
+                    //Task6();**//
                    // break;*/
                 //default:
                     Console.WriteLine("Ievadi skatli robežās no 2 līdz 6!");
