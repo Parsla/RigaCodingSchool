@@ -13,13 +13,13 @@ namespace Day7
         }
         public static void PrintNameSurname(string name, string surname)
         {
-            Console.WriteLine(name, surname);
+            Console.WriteLine($"{name} {surname}");
             
         }
         public static void PrintNameAge(string name, int age = 99)
         {
-            Console.WriteLine(name);
-            Console.WriteLine(age);
+            Console.WriteLine($"{name} {age}");
+            
         }
     }
 }

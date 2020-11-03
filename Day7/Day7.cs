@@ -21,10 +21,13 @@ namespace Day7
                     Task2.PrintNameAge("Pārsla", 32);
                     Task2.PrintNameAge("Pārsla");
                     break;
-               /* case 3:
-                    Task3();
+                case 3:
+                    int[] array = { 1, 2, 3 };
+                    Task3.PrintArrayValues(array);
+                    string[] stringArray = { "a", "b", "c" };
+                    Task3.PrintArrayValues(stringArray);
                     break;
-                case 4:
+                /*case 4:
                     Task4();
                     break;
                 case 5:
@@ -32,8 +35,8 @@ namespace Day7
                     break;
                 case 6:
                     Task6();*/
-                    break;
-                default:
+                   // break;*/
+                //default:
                     Console.WriteLine("Ievadi skatli robežās no 2 līdz 6!");
                     break;
             }
