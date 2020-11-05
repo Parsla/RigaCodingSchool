@@ -32,10 +32,9 @@ namespace Day7
                     Task3.PrintArrayValues(nameArray);
                     nameArray = Task4.GetNonEmtyArray(nameArray);
                     Task3.PrintArrayValues(nameArray);
-                   
                    break;
                case 5:
-                    //Task5();
+                    Task5.CalculateSum(1, 2);
                     break;
                 case 6:
                     //Task6();**//
