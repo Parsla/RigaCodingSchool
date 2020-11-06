@@ -1,22 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Day8
 {
     class Task1
     {
-        public static void GetOnlySmallValues(int[] intArray)
+        public static int[] GetOnlySmallValues(int[] intArray)
 
         {
-            for (int i = 0; i < intArray.Length; i++)
-            {
-                if (i < 5)
-                {
-                    Console.WriteLine(intArray[i]);
-                }
+            return intArray.Where(num => num < 5).ToArray();
 
+           /* List<int> list = new List<int>();
+            foreach(int num in intArray)
+            {
+                if(num < 5)
+                {
+                    list.Add(num);
+                }
             }
+            return list.ToArray();*/
+
 
         }
 

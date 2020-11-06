@@ -34,8 +34,14 @@ namespace Day7
                     Task3.PrintArrayValues(nameArray);
                    break;
                case 5:
-                    Task5.CalculateSum(1, 2);
-                    break;
+                    
+                    //for (int i = 0; i < 3; i++)
+                    {
+                        Console.WriteLine(Task5.CalculateSum(1, 2));
+                        Console.WriteLine(Task5.CalculateSum(2, 3));
+                        Console.WriteLine(Task5.CalculateSum(3, 3));
+                    }
+                        break;
                 case 6:
                     //Task6();**//
                    // break;*/

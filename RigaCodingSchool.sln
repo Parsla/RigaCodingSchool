@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day7", "Day7\Day7.csproj", "{D099DE15-876C-48A1-BAA6-DA7A5A6288F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8", "Day8\Day8.csproj", "{65A1548F-7E37-4580-8501-B5F74C7DDD7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day8", "Day8\Day8.csproj", "{65A1548F-7E37-4580-8501-B5F74C7DDD7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day9", "Day9\Day9.csproj", "{3B48F785-4B86-4196-8BE5-4A7EC2BFBF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10", "Day10\Day10.csproj", "{AC7EA96E-C06D-4906-ACC6-BC26960A1060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{65A1548F-7E37-4580-8501-B5F74C7DDD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65A1548F-7E37-4580-8501-B5F74C7DDD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65A1548F-7E37-4580-8501-B5F74C7DDD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B48F785-4B86-4196-8BE5-4A7EC2BFBF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B48F785-4B86-4196-8BE5-4A7EC2BFBF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B48F785-4B86-4196-8BE5-4A7EC2BFBF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B48F785-4B86-4196-8BE5-4A7EC2BFBF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7EA96E-C06D-4906-ACC6-BC26960A1060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7EA96E-C06D-4906-ACC6-BC26960A1060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7EA96E-C06D-4906-ACC6-BC26960A1060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7EA96E-C06D-4906-ACC6-BC26960A1060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
